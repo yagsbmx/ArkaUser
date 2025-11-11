@@ -32,8 +32,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/:latest .
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/arkauser:latest .
 
       - name: Push Docker image
         run: |
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/arkauser:latest
