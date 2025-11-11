@@ -1,0 +1,17 @@
+.git
+.gitignore
+.gitattributes
+.vscode
+.idea
+*.iml
+.DS_Store
+out
+target
+.gradle
+**/.gradle/
+**/out/
+*.log
+*.tmp
+*.swp
+Dockerfile
+docker-compose.yml
